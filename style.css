@@ -1,3 +1,75 @@
-.body {
-    font-family:'Times New Roman', Times, serif;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.background{
+    height: 100vh;
+    padding-top: 0px;
+    background-image: url("picture.jpg");
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    color: rgb(6, 193, 226);
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    padding-top: 40px;
+}
+
+#h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#p1disp, #p2disp{
+    color: rgb(6, 193, 226);
+}
+
+#scoreDisp{
+  align-items: center;
+  text-align: center;  
+  margin-top: 50px;
+}
+
+#p1button, #p2button{
+    padding: 10px 20px;
+    margin: 0 20px 0 20px;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#reset{
+    padding: 10px 20px;
+    margin: 0 20px 0 20px;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: rgb(6, 193, 226);
+    border: none;
+    cursor: pointer;
+}
+
+#p1button:active, #p2button:active, #reset:active{
+    font-size: large;
+}
+
+
+#p1button:hover, #p2button:hover{
+    background-color: rgb(6, 193, 226);
+}
+
+
+
+#reset:hover{
+    background-color: white;
 }
